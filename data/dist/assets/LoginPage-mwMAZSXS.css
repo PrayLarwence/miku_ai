@@ -1,0 +1,116 @@
+.login-form .v-text-field .v-field--active input {
+  font-weight: 500;
+}
+.login-form .input-field .v-field__field,
+.login-form .pwd-input .v-field__field {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.login-form .input-field .v-field__outline,
+.login-form .pwd-input .v-field__outline {
+  opacity: 0.7;
+}
+.login-form .input-field:hover .v-field__outline,
+.login-form .pwd-input:hover .v-field__outline {
+  opacity: 0.9;
+}
+.login-form .input-field .v-field--focused .v-field__outline,
+.login-form .pwd-input .v-field--focused .v-field__outline {
+  opacity: 1;
+}
+.login-form .input-field .v-field__prepend-inner,
+.login-form .pwd-input .v-field__prepend-inner {
+  padding-right: 8px;
+  opacity: 0.7;
+}
+.login-form .pwd-input {
+  position: relative;
+}
+.login-form .pwd-input .v-input__append {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0.7;
+}
+.login-form .pwd-input .v-input__append:hover {
+  opacity: 1;
+}
+.login-form .login-btn {
+  margin-top: 12px;
+  height: 48px;
+  transition: all 0.3s ease;
+  letter-spacing: 0.5px;
+  border-radius: 8px !important;
+}
+.login-form .login-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(94, 53, 177, 0.2) !important;
+}
+.login-form .login-btn .login-btn-text {
+  font-size: 1.05rem;
+  font-weight: 500;
+}
+.login-form .hint-text {
+  color: var(--v-theme-secondaryText);
+  padding-left: 5px;
+}
+.login-form .error-container .v-alert {
+  border-left-width: 4px !important;
+}
+.custom-divider {
+  border-color: rgba(0, 0, 0, 0.08) !important;
+}
+.language-flag[data-v-44671728] {
+  font-size: 16px;
+  margin-right: 8px;
+}
+
+/* 默认变体样式 - 圆形按钮用于登录页 */
+.language-switcher--default[data-v-44671728] {
+  margin: 0 4px;
+  transition: all 0.3s ease;
+  border-radius: 50% !important;
+  min-width: 32px !important;
+  width: 32px !important;
+  height: 32px !important;
+}
+.language-switcher--default[data-v-44671728]:hover {
+  transform: scale(1.05);
+  background: rgba(var(--v-theme-primary), 0.08) !important;
+}
+
+/* Header变体样式 - 完全继承Vuetify和action-btn的默认样式 */
+.language-switcher--header[data-v-44671728] {
+  /* action-btn类已经处理了margin-right: 6px，不需要额外样式 */
+}
+
+/* ChatBox变体样式 - 与Header保持一致 */
+.language-switcher--chatbox[data-v-44671728] {
+  /* 继承action-btn样式，与工具栏主题按钮保持一致 */
+}
+
+.login-page-container {
+  background-color: rgb(var(--v-theme-containerBg));
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.particle-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+}
+.login-card {
+  width: 400px;
+  padding: 8px;
+  z-index: 1;
+}

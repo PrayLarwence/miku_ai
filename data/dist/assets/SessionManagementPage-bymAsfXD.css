@@ -1,0 +1,24 @@
+
+.v-data-table[data-v-a73cb67e] .v-data-table__td {
+  padding: 8px 16px !important;
+  vertical-align: middle !important;
+}
+code[data-v-a73cb67e] {
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+.transfer-list[data-v-a73cb67e] {
+  max-height: 280px;
+  overflow-y: auto;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+.transfer-item[data-v-a73cb67e] {
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+.transfer-item[data-v-a73cb67e]:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}

@@ -1,0 +1,28 @@
+
+.item-card[data-v-ccb0abff] {
+  position: relative;
+  border-radius: 18px;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  min-height: 220px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.hover-elevation[data-v-ccb0abff]:hover {
+  transform: translateY(-2px);
+}
+.item-status-indicator[data-v-ccb0abff] {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #ccc;
+  z-index: 10;
+}
+.item-status-indicator.active[data-v-ccb0abff] {
+  background-color: #4caf50;
+}

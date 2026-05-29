@@ -1,0 +1,35 @@
+
+.help-page[data-v-92ab1b60] {
+  height: 100%;
+  overflow-y: auto;
+}
+.help-card[data-v-92ab1b60] {
+  border-radius: 16px;
+}
+.help-content[data-v-92ab1b60] {
+  line-height: 1.8;
+}
+.help-list[data-v-92ab1b60] {
+  padding-left: 1.25rem;
+}
+.help-list li[data-v-92ab1b60] {
+  margin-bottom: 8px;
+}
+code[data-v-92ab1b60], kbd[data-v-92ab1b60] {
+  background-color: rgba(0, 0, 0, 0.06);
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.9em;
+  font-family: 'Consolas', 'Courier New', monospace;
+}
+kbd[data-v-92ab1b60] {
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+a[data-v-92ab1b60] {
+  color: rgb(var(--v-theme-primary));
+  text-decoration: none;
+}
+a[data-v-92ab1b60]:hover {
+  text-decoration: underline;
+}

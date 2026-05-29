@@ -1,0 +1,38 @@
+{
+  "typeCode": "INTP",
+  "typeName": "逻辑学家",
+  "typeDesc": "具有创造力的发明家，对知识有强烈的渴望",
+  "summary": "对话极其简短，用户仅用“你好”和“smoke: say hi”进行试探，未流露任何个人情感或社交目的，表现出明显的社交疏离与内省倾向（I）。其使用非结构化指令测试系统边界，带有概念性实验色彩（N），且专注于技术反馈而非人际互动（T）。整体行为随意、开放式探索，无明显计划痕迹（P）。综合判断为 INTP 类型。",
+  "dimensions": [
+    {
+      "label": "E·外向 ───────────────────── I·内向",
+      "left": "E",
+      "right": "I",
+      "score": 75,
+      "color": "pink"
+    },
+    {
+      "label": "S·实感 ───────────────────── N·直觉",
+      "left": "S",
+      "right": "N",
+      "score": 80,
+      "color": "teal"
+    },
+    {
+      "label": "T·思考 ───────────────────── F·情感",
+      "left": "T",
+      "right": "F",
+      "score": 30,
+      "color": "amber"
+    },
+    {
+      "label": "J·判断 ───────────────────── P·感知",
+      "left": "J",
+      "right": "P",
+      "score": 70,
+      "color": "indigo"
+    }
+  ],
+  "analyzed_at": "2026-05-23 01:22:32",
+  "session_id": "webchat!miku!fe32141d-1bfb-4e3d-8d4a-c45f1d8ffbe1"
+}

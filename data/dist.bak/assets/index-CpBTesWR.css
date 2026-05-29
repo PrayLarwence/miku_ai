@@ -1,0 +1,20 @@
+
+.kb-container[data-v-8d14ac4c] {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+/* 页面切换动画 */
+.kb-fade-enter-active[data-v-8d14ac4c],
+.kb-fade-leave-active[data-v-8d14ac4c] {
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+.kb-fade-enter-from[data-v-8d14ac4c] {
+  opacity: 0;
+  transform: translateY(10px);
+}
+.kb-fade-leave-to[data-v-8d14ac4c] {
+  opacity: 0;
+  transform: translateY(-10px);
+}

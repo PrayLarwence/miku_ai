@@ -1,0 +1,114 @@
+
+.config-section[data-v-977b1824] {
+  margin-bottom: 12px;
+}
+.config-title[data-v-977b1824] {
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--v-theme-primaryText);
+}
+.config-hint[data-v-977b1824] {
+  font-size: 0.75rem;
+  color: var(--v-theme-secondaryText);
+  margin-top: 2px;
+}
+.metadata-key[data-v-977b1824], .property-key[data-v-977b1824] {
+  font-size: 0.85em;
+  opacity: 0.7;
+  font-weight: normal;
+  display: none;
+}
+.important-hint[data-v-977b1824] {
+  opacity: 1;
+  margin-right: 4px;
+}
+.object-config[data-v-977b1824], .simple-config[data-v-977b1824] {
+  width: 100%;
+}
+.config-item[data-v-977b1824] {
+  margin-bottom: 2px;
+}
+.nested-object[data-v-977b1824] {
+  padding-left: 16px;
+}
+.nested-container[data-v-977b1824] {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 12px;
+  margin: 12px 0;
+  background-color: rgba(0, 0, 0, 0.02);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+.config-row[data-v-977b1824] {
+  margin: 0;
+  align-items: center;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+.config-row[data-v-977b1824]:hover {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+.property-info[data-v-977b1824] {
+  padding: 0;
+}
+.property-name[data-v-977b1824] {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--v-theme-primaryText);
+}
+.property-hint[data-v-977b1824] {
+  font-size: 0.75rem;
+  color: var(--v-theme-secondaryText);
+  margin-top: 2px;
+}
+.type-indicator[data-v-977b1824] {
+  display: flex;
+  justify-content: center;
+}
+.config-input[data-v-977b1824] {
+  padding: 4px 8px;
+}
+.config-field[data-v-977b1824] {
+  margin-bottom: 0;
+}
+.config-divider[data-v-977b1824] {
+  border-color: rgba(0, 0, 0, 0.05);
+  margin: 0px 16px;
+}
+.editor-container[data-v-977b1824] {
+  position: relative;
+  display: flex;
+  width: 100%;
+}
+.editor-fullscreen-btn[data-v-977b1824] {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+}
+.editor-fullscreen-btn[data-v-977b1824]:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+@media (max-width: 600px) {
+.nested-object[data-v-977b1824] {
+    padding-left: 8px;
+}
+.config-row[data-v-977b1824] {
+    padding: 8px 0;
+}
+.property-info[data-v-977b1824] {
+    padding: 4px 4px;
+}
+.property-info[data-v-977b1824] .v-list-item {
+    padding-inline: 0;
+}
+.type-indicator[data-v-977b1824],
+  .config-input[data-v-977b1824] {
+    padding: 4px;
+}
+.config-divider[data-v-977b1824] {
+    display: none;
+}
+}

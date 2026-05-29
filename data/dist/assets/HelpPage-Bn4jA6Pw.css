@@ -1,0 +1,35 @@
+
+.help-page[data-v-c3c946f3] {
+  height: 100%;
+  overflow-y: auto;
+}
+.help-card[data-v-c3c946f3] {
+  border-radius: 16px;
+}
+.help-content[data-v-c3c946f3] {
+  line-height: 1.8;
+}
+.help-list[data-v-c3c946f3] {
+  padding-left: 1.25rem;
+}
+.help-list li[data-v-c3c946f3] {
+  margin-bottom: 8px;
+}
+code[data-v-c3c946f3], kbd[data-v-c3c946f3] {
+  background-color: rgba(0, 0, 0, 0.06);
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.9em;
+  font-family: 'Consolas', 'Courier New', monospace;
+}
+kbd[data-v-c3c946f3] {
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+a[data-v-c3c946f3] {
+  color: rgb(var(--v-theme-primary));
+  text-decoration: none;
+}
+a[data-v-c3c946f3]:hover {
+  text-decoration: underline;
+}
